@@ -11,7 +11,7 @@
     "http-server": "^0.10.0"
   },
   "scripts": {
-    "transpile": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "transpile": "babel --presets es2015 scripts.js",
     "start": "http-server"
   },
   "repository": {

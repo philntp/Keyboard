@@ -2,72 +2,75 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-     
-    <title>Online Keyboard</title>
-    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <style>
+        body{
+            background : #000000;
+        }
+    </style>
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </head>
 <body>
- 
-<div id="container">
-    <textarea id="write" rows="6" cols="60"></textarea>
-    <ul id="keyboard">
-        <li class="symbol"><span class="off">`</span><span class="on">~</span></li>
-        <li class="symbol"><span class="off">1</span><span class="on">!</span></li>
-        <li class="symbol"><span class="off">2</span><span class="on">@</span></li>
-        <li class="symbol"><span class="off">3</span><span class="on">#</span></li>
-        <li class="symbol"><span class="off">4</span><span class="on">$</span></li>
-        <li class="symbol"><span class="off">5</span><span class="on">%</span></li>
-        <li class="symbol"><span class="off">6</span><span class="on">^</span></li>
-        <li class="symbol"><span class="off">7</span><span class="on">&amp;</span></li>
-        <li class="symbol"><span class="off">8</span><span class="on">*</span></li>
-        <li class="symbol"><span class="off">9</span><span class="on">(</span></li>
-        <li class="symbol"><span class="off">0</span><span class="on">)</span></li>
-        <li class="symbol"><span class="off">-</span><span class="on">_</span></li>
-        <li class="symbol"><span class="off">=</span><span class="on">+</span></li>
-        <li class="delete lastitem">delete</li>
-        <li class="tab">tab</li>
-        <li class="letter">q</li>
-        <li class="letter">w</li>
-        <li class="letter">e</li>
-        <li class="letter">r</li>
-        <li class="letter">t</li>
-        <li class="letter">y</li>
-        <li class="letter">u</li>
-        <li class="letter">i</li>
-        <li class="letter">o</li>
-        <li class="letter">p</li>
-        <li class="symbol"><span class="off">[</span><span class="on">{</span></li>
-        <li class="symbol"><span class="off">]</span><span class="on">}</span></li>
-        <li class="symbol lastitem"><span class="off">\</span><span class="on">|</span></li>
-        <li class="capslock">caps lock</li>
-        <li class="letter">a</li>
-        <li class="letter">s</li>
-        <li class="letter">d</li>
-        <li class="letter">f</li>
-        <li class="letter">g</li>
-        <li class="letter">h</li>
-        <li class="letter">j</li>
-        <li class="letter">k</li>
-        <li class="letter">l</li>
-        <li class="symbol"><span class="off">;</span><span class="on">:</span></li>
-        <li class="symbol"><span class="off">'</span><span class="on">&quot;</span></li>
-        <li class="return lastitem">return</li>
-        <li class="left-shift">shift</li>
-        <li class="letter">z</li>
-        <li class="letter">x</li>
-        <li class="letter">c</li>
-        <li class="letter">v</li>
-        <li class="letter">b</li>
-        <li class="letter">n</li>
-        <li class="letter">m</li>
-        <li class="symbol"><span class="off">,</span><span class="on">&lt;</span></li>
-        <li class="symbol"><span class="off">.</span><span class="on">&gt;</span></li>
-        <li class="symbol"><span class="off">/</span><span class="on">?</span></li>
-        <li class="right-shift lastitem">shift</li>
-        <li class="space lastitem">&nbsp;</li>
-    </ul>
+        <h1 class="display-1">Virtual keyboard</h1>
+</br>
+</br>
+<div class="container-fluid">
+    <textarea  rows="6" cols="60"></textarea>
+    <table>
+        <tr>
+            <th ><button type="button" class="btn btn-outline-secondary" >1</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >2</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >3</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >4</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >5</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >6</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >7</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >8</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >9</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >0</button></th>
+            <th ><button type="button" class="btn btn-outline-danger" >delete</button></th>
+        </tr>
+        <tr>
+            <th ><button type="button" class="btn btn-outline-secondary" >q</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >w</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >e</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >>r</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >>t</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >y</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >u</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >i</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >o</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >p</button></th>
+        </tr>
+        <tr>
+            <th ><button type="button" class="btn btn-outline-secondary" >a</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >s</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >d</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >f</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >g</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >h</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >j</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >k</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >l</button></th>
+        </tr>
+        <tr>
+            <th ><button type="button" class="btn btn-outline-secondary" >z</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >x</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >c</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >v</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >b</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >n</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" >m</button></th>
+        </tr>
+        <tr>
+        <th ><button type="button" class="btn btn-outline-secondary" >_</button></th>
+        </tr>
+    </table>
 </div>
-
-<script src='build/main.bundle.js'></script>
+<script src="scripts.js"></script>
 </body>
 </html>
