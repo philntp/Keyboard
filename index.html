@@ -24,61 +24,60 @@
 <br>
 <br>
 
-<div style="width: 500px;
-margin: auto;">
-    <textarea  rows="6" cols="60"></textarea>
+<div style="width: 500px;margin: auto;">
+    <textarea id="textA" rows="6" cols="60"></textarea>
     <br>
     <br>
     <table style="">
         <tr>
-            <th ><button type="button" class="btn btn-outline-secondary" onclick="press()" >1</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >2</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >3</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >4</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >5</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >6</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >7</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >8</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >9</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >0</button></th>
-            <th ><button type="button" class="btn btn-outline-danger" >delete</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('1')" >1</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('2')">2</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('3')">3</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('4')">4</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('5')">5</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('6')">6</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('7')">7</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('8')">8</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary"onclick="press('9')" >9</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('0')">0</button></th>
+            <th ><button type="button" class="btn btn-outline-danger" onclick="backspace()">delete</button></th>
         </tr>
         <tr>
-            <th ><button type="button" class="btn btn-outline-secondary" >q</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >w</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >e</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >r</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >t</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >y</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >u</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >i</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >o</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >p</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('q')">q</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('w')">w</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('e')">e</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('r')">r</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('t')">t</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('y')">y</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('u')">u</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('i')">i</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('o')">o</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('p')">p</button></th>
+        </tr
+        <tr>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('a')">a</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('s')">s</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('d')">d</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('f')">f</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('g')">g</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('h')">h</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('j')">j</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('k')">k</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('l')">l</button></th>
         </tr>
         <tr>
-            <th ><button type="button" class="btn btn-outline-secondary" >a</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >s</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >d</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >f</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >g</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >h</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >j</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >k</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >l</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('z')">z</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('x')">x</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('c')">c</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('v')">v</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('b')">b</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('n')">n</button></th>
+            <th ><button type="button" class="btn btn-outline-secondary" onclick="press('m')">m</button></th>
         </tr>
-        <tr>
-            <th ><button type="button" class="btn btn-outline-secondary" >z</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >x</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >c</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >v</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >b</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >n</button></th>
-            <th ><button type="button" class="btn btn-outline-secondary" >m</button></th>
-        </tr>
-        <tr>
-        <th ><button type="button" class="btn btn-outline-secondary" >_</button></th>
-        </tr>
+        
+
     </table>
+    <button type="button" style="width: 500px;" class="btn btn-outline-secondary" onclick="press(' ')" >_</button>
 </div>
 <script src="scripts.js"></script>
 </body>
